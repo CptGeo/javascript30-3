@@ -1,0 +1,26 @@
+:root{
+	--min-size:400px;
+
+}
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+h1{
+	font-size: 3em;
+	font-family:'Montserrat', sans-serif;
+	text-align: center;
+}
+input{
+	margin:30px;
+	width:20%;
+}
+
+img{
+	min-width:var(--min-size);
+	width:70%;
+	margin:100px auto;
+	display:block;
+}
