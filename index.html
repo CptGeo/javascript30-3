@@ -10,7 +10,7 @@
 	<h1>Update CSS Variables using <span class="clr">JS</span></h1>
 	<div class="input-box">
 		Spacing:
-		<input type="range" min="0" max="300" name="range" data-units="px">
+		<input name="spacing" type="range" min="0" max="300" name="range" data-units="px">
 	</div>
 	<div class="input-box">
 		Blur:
@@ -18,11 +18,11 @@
 	</div>
 	<div class="input-box">
 		Background Color:
-		<input type="color" name="bg-color" value="#ff0000">
+		<input name="color"  type="color" name="bg-color" value="#ff0000">
 	</div>
 
-	<img src="./images/image.jpg">
-
+	<img id="img" src="./images/image.jpg">
+	<footer class="invisible">Made with <img id="foot" src="./images/heart.svg" id="love"></img> by <a target="_blank" href="https://www.facebook.com/george.kalyvianakis">George Kalyvianakis</a></footer>
 </body>
 <script type="text/javascript" src="script.js"></script>
 </html>
