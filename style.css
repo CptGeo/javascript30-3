@@ -1,26 +1,45 @@
 :root{
 	--min-size:400px;
-
+	--color:#FF0000;
+	--spacing:20px;
+	--blur:10px;
 }
-
 *{
 	box-sizing: border-box;
 	margin:0;
 	padding:0;
+	font-family: 'Montserrat',sans-serif;
+}
+.input-box{
+	font-size:1.5em;
+	font-weight: 600;
+}
+html{
+	background-color:rgb(45,129,249);
 }
 h1{
 	font-size: 3em;
-	font-family:'Montserrat', sans-serif;
 	text-align: center;
 }
 input{
-	margin:30px;
-	width:20%;
+	margin-left:15px;
 }
-
 img{
 	min-width:var(--min-size);
 	width:70%;
-	margin:100px auto;
+	margin:50px auto;
 	display:block;
+	background-color:var(--color);
+	padding:var(--spacing);
+	filter:blur(var(--blur));
+
+}
+.input-box{
+	text-align: center;
+	margin-top:60px;
+	display:inline-block;
+	width:33%;
+}
+.clr{
+	color:var(--color);
 }
